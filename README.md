@@ -1,70 +1,9 @@
-<table style="width: 100%; border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    
-    <!-- CỘT TRÁI: THÔNG TIN CÁ NHÂN & HỌC VẤN -->
-    <td width="35%" valign="top" style="border: right 1px solid #ddd; padding-right: 20px;">
-      
-      <div align="center">
-        <h2>Võ Nguyễn Duy Hoàng</h2>
-        <p><b>IT Student | Backend Developer</b></p>
-        <img src="https://avatars.githubusercontent.com/u/YOUR_GITHUB_ID" width="180" style="border-radius: 50%;" alt="Profile Picture">
-      </div>
-      
-      <br>
+<h1 align="center">Hi 👋, I'm Vo Nguyen Duy Hoang</h1>
+<h3 align="center">Backend Developer | Journeying towards Full-Stack & DevOps</h3>
 
-      <h3>📞 Liên hệ</h3>
-      <p>
-        ✉️ <a href="mailto:your-email@gmail.com">your-email@gmail.com</a><br>
-        🔗 <a href="https://linkedin.com/in/your-profile">LinkedIn Profile</a><br>
-        📍 TP. Hồ Chí Minh, Việt Nam
-      </p>
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-      <h3>🎓 Học vấn</h3>
-      <p>
-        <b>Đại học Tôn Đức Thắng (TDTU)</b><br>
-        <i>Cử nhân Công nghệ Thông tin</i><br>
-        2024 - Hiện tại
-      </p>
-
-      <h3>🗣️ Ngôn ngữ</h3>
-      <p>
-        • Tiếng Việt (Native)<br>
-        • Tiếng Anh (Đọc tài liệu chuyên ngành)
-      </p>
-    </td>
-
-    <!-- CỘT PHẢI: ABOUT, ROADMAP, SKILLS -->
-    <td width="65%" valign="top" style="padding-left: 20px; border: none;">
-      
-      <h3>👨‍💻 Về tôi</h3>
-      <p>
-        Là sinh viên CNTT đam mê lĩnh vực <b>Backend và Network Engineering</b>. Hiện tại, tôi đang trong lộ trình 11 tháng tập trung xây dựng lại nền tảng kiến thức lập trình vững chắc từ con số không, hướng tới mục tiêu trở thành Full-stack/DevOps Engineer trong tương lai.
-      </p>
-
-      <h3>🎯 Roadmap hiện tại</h3>
-      <p>
-        <b>Re-building Core Fundamentals</b><br>
-        <i>Tháng 4/2026 - Hiện tại</i><br>
-        • Đi sâu vào Cấu trúc dữ liệu & Giải thuật.<br>
-        • Tự thiết kế và lập trình các ứng dụng mạng đa luồng (TCP/UDP) bằng Java thuần không phụ thuộc AI.<br>
-        • Quản trị hệ thống và tối ưu hóa cơ sở dữ liệu.
-      </p>
-
-      <h3>⚙️ Kỹ năng (Skills)</h3>
-      <p>
-        <b>Ngôn ngữ lập trình</b><br>
-        Java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ████████░░<br>
-        Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ███████░░░<br>
-        JavaScript &nbsp; ██████░░░░
-      </p>
-      
-      <p>
-        <b>Cơ sở dữ liệu & Công cụ</b><br>
-        SQL Server &nbsp; ████████░░<br>
-        Git/GitHub &nbsp; ███████░░░<br>
-        Docker &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ████░░░░░░
-      </p>
-      
-    </td>
-  </tr>
-</table>
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
