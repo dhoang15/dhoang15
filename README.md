@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="https://github.com/dhoang15/web_pos_fashion">web_pos_fashion</a> · <a href="https://github.com/dhoang15/java-calculator">java-calculator</a> · <a href="https://github.com/dhoang15/Nhom19minicloud">Nhom19minicloud</a></sub>
+  <sub><a href="https://github.com/dhoang15/Nhom19minicloud">Nhom19minicloud</a> · <a href="https://github.com/dhoang15/web_pos_fashion">web_pos_fashion</a></sub>
 </p>
 
 <p align="center">
