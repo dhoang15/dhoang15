@@ -291,11 +291,3 @@ ${img('stats.svg', 'GitHub stats and contributions')}
 `;
 fs.writeFileSync(readmePath, readme);
 console.log('Generated into', dir, svgChanged ? '(updated)' : '(no SVG changes)');
-```[cite: 8]
-
-### Cách cập nhật nhanh lên GitHub
-1. Dán đoạn code trên vào `scripts/generate.mjs` tại `F:\dhoang15`.
-2. Push lên nhánh `main` (`git add scripts/generate.mjs && git commit -m "fix: stats contribution palette and legend spacing" && git push origin main`).
-3. Vào tab **Actions** trên GitHub -> chọn **Update README** -> bấm **Run workflow** -> chờ xanh rồi mở lại `[https://github.com/dhoang15](https://github.com/dhoang15)` (nhấn `Ctrl + F5`).
-
-Nếu vẫn thấy `stats.svg` chưa đổi hoặc chưa hiện ô màu trên lưới contribution, kiểm tra xem đã thêm secret `GH_STATS_TOKEN` (PAT classic tick `read:user`) và cập nhật `GH_TOKEN` trong `.github/workflows/update-readme.yml` chưa.
