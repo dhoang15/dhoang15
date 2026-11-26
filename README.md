@@ -25,7 +25,3 @@
 <p align="center">
   <a href="https://github.com/dhoang15"><img src="https://img.shields.io/badge/GitHub-0b1020?style=for-the-badge&logo=github&logoColor=22d3ee&labelColor=0b1020" alt="GitHub" /></a>
 </p>
-
-<p align="center">
-  <sub>auto-updated by GitHub Actions · last run 2026-11-26</sub>
-</p>
