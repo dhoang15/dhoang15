@@ -17,7 +17,3 @@
 <p align="center">
   <img src="./assets/activity.svg" alt="Recently pushed repositories" width="100%" />
 </p>
-
-<!-- <p align="center">
-  <img src="./assets/stats.svg" alt="GitHub stats and contributions" width="100%" />
-</p> -->
