@@ -1,6 +1,6 @@
 // Terminal-style GitHub profile generator (animated SVG windows + README).
-//   GH_USER=you GH_TOKEN=xxx node scripts/generate.mjs      (real data)
-//   node scripts/generate.mjs --mock scripts/mock.json      (offline preview)
+//   GH_USER=dhoang15 GH_TOKEN=xxx node scripts/generate.mjs      (real data)
+//   node scripts/generate.mjs --mock scripts/mock.json          (offline preview)
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -235,12 +235,28 @@ const model = {
 const preview = process.argv.includes('--mock'), dir = preview ? 'preview' : '.';
 fs.mkdirSync(path.join(dir, 'assets'), { recursive: true });
 const files = { 'header.svg': header, 'projects.svg': projects, 'stack.svg': stack, 'stats.svg': stats, 'activity.svg': activity };
-for (const [f, fn] of Object.entries(files)) fs.writeFileSync(path.join(dir, 'assets', f), fn(model));
+
+let svgChanged = false;
+for (const [f, fn] of Object.entries(files)) {
+  const filePath = path.join(dir, 'assets', f);
+  const nextContent = fn(model);
+  const prevContent = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8') : '';
+  if (nextContent !== prevContent) {
+    fs.writeFileSync(filePath, nextContent);
+    svgChanged = true;
+  }
+}
 
 const badge = (label, url, logo, color = '22d3ee') =>
   `<a href="${url}"><img src="https://img.shields.io/badge/${encodeURIComponent(label.replace(/-/g, '--').replace(/_/g, '__'))}-0b1020?style=for-the-badge${logo ? `&logo=${logo}&logoColor=${color}` : ''}&labelColor=0b1020" alt="${esc(label)}" /></a>`;
 const links = [badge('GitHub', `https://github.com/${login}`, 'github'), ...(cfg.links || []).map((l) => badge(l.label, l.url, l.logo))].join('\n  ');
 const img = (f, alt) => `<p align="center">\n  <img src="./assets/${f}" alt="${esc(alt)}" width="100%" />\n</p>`;
+
+const readmePath = path.join(dir, 'README.md');
+const prevReadme = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf8') : '';
+const oldDateMatch = prevReadme.match(/last run ([0-9]{4}-[0-9]{2}-[0-9]{2})/);
+const runDate = svgChanged || !oldDateMatch ? new Date().toISOString().slice(0, 10) : oldDateMatch[1];
+
 const readme = `${img('header.svg', `${model.name} — ${model.title}`)}
 
 ${img('projects.svg', model.pinned ? 'Pinned projects' : 'Projects sorted by stars')}
@@ -260,8 +276,8 @@ ${img('stats.svg', 'GitHub stats and contributions')}
 </p>
 
 <p align="center">
-  <sub>auto-updated by GitHub Actions · last run ${new Date().toISOString().slice(0, 10)}</sub>
+  <sub>auto-updated by GitHub Actions · last run ${runDate}</sub>
 </p>
 `;
-fs.writeFileSync(path.join(dir, 'README.md'), readme);
-console.log('Generated into', dir);
+fs.writeFileSync(readmePath, readme);
+console.log('Generated into', dir, svgChanged ? '(updated)' : '(no SVG changes)');

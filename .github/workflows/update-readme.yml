@@ -2,14 +2,13 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 * * * *"      # mỗi giờ
+    - cron: "0 * * * *"      # tự chạy mỗi giờ
   workflow_dispatch:          # bấm chạy tay ở tab Actions
   push:
     branches: [main]
     paths:
       - "scripts/**"
       - "profile.config.json"
-      - ".github/workflows/update-readme.yml"
 
 permissions:
   contents: write
