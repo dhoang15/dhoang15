@@ -21,7 +21,3 @@
 <p align="center">
   <img src="./assets/stats.svg" alt="GitHub stats and contributions" width="100%" />
 </p>
-
-<p align="center">
-  <a href="https://github.com/dhoang15"><img src="https://img.shields.io/badge/GitHub-0b1020?style=for-the-badge&logo=github&logoColor=22d3ee&labelColor=0b1020" alt="GitHub" /></a>
-</p>
