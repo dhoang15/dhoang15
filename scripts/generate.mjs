@@ -174,14 +174,24 @@ function stats(m) {
 <text class="m" x="${x + 20}" y="162" font-size="11" letter-spacing="1.6" fill="${MUTED}">${k.toUpperCase()}</text></g>`;
   });
   o += `<text class="m" x="32" y="214" font-size="12" fill="${MUTED}">${num(m.total)} contributions in the last 12 months</text>`;
-  const COL = { NONE: '#131a36', FIRST_QUARTER: '#155e75', SECOND_QUARTER: '#0891b2', THIRD_QUARTER: CY, FOURTH_QUARTER: VI };
+  const PALETTE = ['#131a36', '#155e75', '#0891b2', CY, VI];
+  const levelIndex = (d) => {
+    if (!d.count || d.count <= 0) return 0;
+    if (d.count <= 2) return 1;
+    if (d.count <= 5) return 2;
+    if (d.count <= 9) return 3;
+    return 4;
+  };
   const x0 = 50, y0 = 228, step = 15;
   m.weeks.forEach((wk, x) => wk.forEach((d) => {
     const dow = new Date(d.date + 'T00:00:00Z').getUTCDay();
-    o += `<rect x="${x0 + x * step}" y="${y0 + dow * step}" width="12" height="12" rx="3" fill="${COL[d.level] || COL.NONE}"><title>${esc(d.date)}: ${d.count}</title></rect>`;
+    const fill = PALETTE[levelIndex(d)];
+    o += `<rect x="${x0 + x * step}" y="${y0 + dow * step}" width="12" height="12" rx="3" fill="${fill}"><title>${esc(d.date)}: ${d.count}</title></rect>`;
   }));
-  const lx = W - 32 - 5 * 15 - 60;
-  o += `<text class="m" x="${lx}" y="${y0 + 7 * step + 12}" text-anchor="end" font-size="11" fill="${MUTED}">less</text>` + Object.values(COL).map((c, i) => `<rect x="${lx + 8 + i * 15}" y="${y0 + 7 * step + 2}" width="12" height="12" rx="3" fill="${c}"/>`).join('') + `<text class="m" x="${lx + 8 + 5 * 15 + 4}" y="${y0 + 7 * step + 12}" font-size="11" fill="${MUTED}">more</text>`;
+  const lx = W - 32 - 5 * 15 - 48;
+  o += `<text class="m" x="${lx}" y="${y0 + 7 * step + 12}" text-anchor="end" font-size="11" fill="${MUTED}">less</text>`
+    + PALETTE.map((c, i) => `<rect x="${lx + 8 + i * 15}" y="${y0 + 7 * step + 2}" width="12" height="12" rx="3" fill="${c}"/>`).join('')
+    + `<text class="m" x="${lx + 8 + 5 * 15 + 6}" y="${y0 + 7 * step + 12}" font-size="11" fill="${MUTED}">more</text>`;
   return win(H, '~/stats — contributions', o, `${num(m.total)} contributions in the last 12 months`);
 }
 
@@ -281,3 +291,11 @@ ${img('stats.svg', 'GitHub stats and contributions')}
 `;
 fs.writeFileSync(readmePath, readme);
 console.log('Generated into', dir, svgChanged ? '(updated)' : '(no SVG changes)');
+```[cite: 8]
+
+### Cách cập nhật nhanh lên GitHub
+1. Dán đoạn code trên vào `scripts/generate.mjs` tại `F:\dhoang15`.
+2. Push lên nhánh `main` (`git add scripts/generate.mjs && git commit -m "fix: stats contribution palette and legend spacing" && git push origin main`).
+3. Vào tab **Actions** trên GitHub -> chọn **Update README** -> bấm **Run workflow** -> chờ xanh rồi mở lại `[https://github.com/dhoang15](https://github.com/dhoang15)` (nhấn `Ctrl + F5`).
+
+Nếu vẫn thấy `stats.svg` chưa đổi hoặc chưa hiện ô màu trên lưới contribution, kiểm tra xem đã thêm secret `GH_STATS_TOKEN` (PAT classic tick `read:user`) và cập nhật `GH_TOKEN` trong `.github/workflows/update-readme.yml` chưa.
