@@ -27,5 +27,5 @@
 </p>
 
 <p align="center">
-  <sub>auto-updated by GitHub Actions · last run 2026-11-26</sub>
+  <sub>auto-updated by GitHub Actions · last run 2026-11-27</sub>
 </p>
