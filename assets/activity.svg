@@ -18,10 +18,10 @@
 <text class="m" x="32" y="70" font-size="14"><tspan fill="#22d3ee">~</tspan><tspan fill="#7d89b0">/</tspan><tspan fill="#f472b6"> $</tspan><tspan fill="#e6e9fa"> git log --pushed -5</tspan></text><g class="rise" style="animation-delay:0.1s"><circle cx="40" cy="102" r="5" fill="#22d3ee"/><line x1="40" y1="107" x2="40" y2="131" stroke="#27304f" stroke-width="2"/>
 <text class="m" x="64" y="106" font-size="13" fill="#7d89b0">2026-11-26</text>
 <text class="m" x="180" y="106" font-size="14" font-weight="700" fill="#fff">web_pos_fashion</text>
-<text class="m" x="868" y="106" text-anchor="end" font-size="12" fill="#7d89b0">today</text></g><g class="rise" style="animation-delay:0.2s"><circle cx="40" cy="136" r="5" fill="#a78bfa"/><line x1="40" y1="141" x2="40" y2="165" stroke="#27304f" stroke-width="2"/>
+<text class="m" x="868" y="106" text-anchor="end" font-size="12" fill="#7d89b0">yesterday</text></g><g class="rise" style="animation-delay:0.2s"><circle cx="40" cy="136" r="5" fill="#a78bfa"/><line x1="40" y1="141" x2="40" y2="165" stroke="#27304f" stroke-width="2"/>
 <text class="m" x="64" y="140" font-size="13" fill="#7d89b0">2026-11-15</text>
 <text class="m" x="180" y="140" font-size="14" font-weight="700" fill="#fff">Nhom19minicloud</text>
-<text class="m" x="868" y="140" text-anchor="end" font-size="12" fill="#7d89b0">11 days ago</text></g><g class="rise" style="animation-delay:0.30000000000000004s"><circle cx="40" cy="170" r="5" fill="#a78bfa"/>
+<text class="m" x="868" y="140" text-anchor="end" font-size="12" fill="#7d89b0">12 days ago</text></g><g class="rise" style="animation-delay:0.30000000000000004s"><circle cx="40" cy="170" r="5" fill="#a78bfa"/>
 <text class="m" x="64" y="174" font-size="13" fill="#7d89b0">2026-08-15</text>
 <text class="m" x="180" y="174" font-size="14" font-weight="700" fill="#fff">Student-Management</text>
 <text class="m" x="868" y="174" text-anchor="end" font-size="12" fill="#7d89b0">3 mo ago</text></g></svg>
