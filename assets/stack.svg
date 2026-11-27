@@ -19,20 +19,20 @@
 <rect x="143" y="99" width="655" height="14" rx="7" fill="#161d3d"/>
 <rect class="grow" x="143" y="99" width="655.0" height="14" rx="7" fill="#f1e05a" style="animation-delay:0.30s"/>
 <rect x="143" y="99" width="655.0" height="5" rx="2.5" fill="#fff" opacity=".18"/>
-<text class="m" x="868" y="111" text-anchor="end" font-size="14" font-weight="700" fill="#c7d2fe">59%</text></g><g class="rise" style="animation-delay:0.2s"><text class="m" x="32" y="149" font-size="14" fill="#fff">fluent</text>
+<text class="m" x="868" y="111" text-anchor="end" font-size="14" font-weight="700" fill="#c7d2fe">44%</text></g><g class="rise" style="animation-delay:0.2s"><text class="m" x="32" y="149" font-size="14" fill="#fff">html</text>
 <rect x="143" y="137" width="655" height="14" rx="7" fill="#161d3d"/>
-<rect class="grow" x="143" y="137" width="344.2" height="14" rx="7" fill="#ffcc33" style="animation-delay:0.42s"/>
-<rect x="143" y="137" width="344.2" height="5" rx="2.5" fill="#fff" opacity=".18"/>
-<text class="m" x="868" y="149" text-anchor="end" font-size="14" font-weight="700" fill="#c7d2fe">31%</text></g><g class="rise" style="animation-delay:0.30000000000000004s"><text class="m" x="32" y="187" font-size="14" fill="#fff">css</text>
+<rect class="grow" x="143" y="137" width="431.7" height="14" rx="7" fill="#e34c26" style="animation-delay:0.42s"/>
+<rect x="143" y="137" width="431.7" height="5" rx="2.5" fill="#fff" opacity=".18"/>
+<text class="m" x="868" y="149" text-anchor="end" font-size="14" font-weight="700" fill="#c7d2fe">29%</text></g><g class="rise" style="animation-delay:0.30000000000000004s"><text class="m" x="32" y="187" font-size="14" fill="#fff">php</text>
 <rect x="143" y="175" width="655" height="14" rx="7" fill="#161d3d"/>
-<rect class="grow" x="143" y="175" width="55.5" height="14" rx="7" fill="#ab8fc7" style="animation-delay:0.54s"/>
-<rect x="143" y="175" width="55.5" height="5" rx="2.5" fill="#fff" opacity=".18"/>
-<text class="m" x="868" y="187" text-anchor="end" font-size="14" font-weight="700" fill="#c7d2fe">5%</text></g><g class="rise" style="animation-delay:0.4s"><text class="m" x="32" y="225" font-size="14" fill="#fff">html</text>
+<rect class="grow" x="143" y="175" width="208.4" height="14" rx="7" fill="#4F5D95" style="animation-delay:0.54s"/>
+<rect x="143" y="175" width="208.4" height="5" rx="2.5" fill="#fff" opacity=".18"/>
+<text class="m" x="868" y="187" text-anchor="end" font-size="14" font-weight="700" fill="#c7d2fe">14%</text></g><g class="rise" style="animation-delay:0.4s"><text class="m" x="32" y="225" font-size="14" fill="#fff">css</text>
 <rect x="143" y="213" width="655" height="14" rx="7" fill="#161d3d"/>
-<rect class="grow" x="143" y="213" width="33.3" height="14" rx="7" fill="#e34c26" style="animation-delay:0.66s"/>
-<rect x="143" y="213" width="33.3" height="5" rx="2.5" fill="#fff" opacity=".18"/>
-<text class="m" x="868" y="225" text-anchor="end" font-size="14" font-weight="700" fill="#c7d2fe">3%</text></g><g class="rise" style="animation-delay:0.5s"><text class="m" x="32" y="263" font-size="14" fill="#fff">php</text>
+<rect class="grow" x="143" y="213" width="148.9" height="14" rx="7" fill="#ab8fc7" style="animation-delay:0.66s"/>
+<rect x="143" y="213" width="148.9" height="5" rx="2.5" fill="#fff" opacity=".18"/>
+<text class="m" x="868" y="225" text-anchor="end" font-size="14" font-weight="700" fill="#c7d2fe">10%</text></g><g class="rise" style="animation-delay:0.5s"><text class="m" x="32" y="263" font-size="14" fill="#fff">java</text>
 <rect x="143" y="251" width="655" height="14" rx="7" fill="#161d3d"/>
-<rect class="grow" x="143" y="251" width="14.0" height="14" rx="7" fill="#4F5D95" style="animation-delay:0.78s"/>
-<rect x="143" y="251" width="14.0" height="5" rx="2.5" fill="#fff" opacity=".18"/>
+<rect class="grow" x="143" y="251" width="14.9" height="14" rx="7" fill="#b07219" style="animation-delay:0.78s"/>
+<rect x="143" y="251" width="14.9" height="5" rx="2.5" fill="#fff" opacity=".18"/>
 <text class="m" x="868" y="263" text-anchor="end" font-size="14" font-weight="700" fill="#c7d2fe">1%</text></g></svg>
